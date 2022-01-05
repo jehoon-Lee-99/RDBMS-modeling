@@ -5,5 +5,26 @@
 참조 무결성
 
 주 식별자(primary key): 하나의 레코드를 고유하게 구분할 수 있는것 (Not NULL, Unique)
-후보 식별자 : 주 식별자가 될 수 있는 키 (Unique)
+후보키(Candiate identifier): 주 식별자가 될 수 있는 키
 
+결정자(Determinant): 이 값을 알면 나머지 속성값도 알 수 있는 속성
+
+--DATA TYPE--
+정수
+bit(boolean)
+int
+bigint : 920경
+tinyint(unsigned bite): 0~255
+
+실수
+float
+decimal: 근사치가 아닌 정확한 수치, 화폐에서 사용
+
+문자
+char: 할당한 자리가 빈공간으로 남아있음
+varchar: 가변길이, 할당하지 않은 자리는 사용X
+Text: 최대길이 설정 (= varchar[(n)max]
+
+날짜와 시간
+datetime 
+smalldatetime
